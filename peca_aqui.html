@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+ <title>Pizzaria do Hexa</title>
+ <meta http-equiv="content-type" charset="utf-8"/>
+ <meta http-equiv="content-languade" content="pt'br"/>
+ <meta name="author" content="marlon lopes & Victor"/>
+ <meta name="description" content="SIte Institucional "/>
+	<style>
+	body{background-color:#ffff00;margin:0;}
+	.geral{margin-left:10%;
+		   margin-right:10%;
+		   background-color:#ffff00;
+		   height:790px;}
+	.topo{width:100%;height:20%;background-color:#f6f100;}	
+	 .logo{width:25%;height:100%; background-color:#de0523;float:left;}
+	 .banner{width:75%;height:100%;float:right}
+	.menu{width:100%;height:7%;background-color:#009c3b;} 
+	.corpo{width:100%;height:66%;background-color:#ffffff;}
+	.rodape{width:100%;height:7%;background-color:#009c3b;}
+		</style>
+ </head> 
+ 
+  <body>
+  <div class="geral">
+	<div class="topo">
+		<div class="logo"><img height="100%" width="100%" src="img/logo.jpg" ></div>
+		<div class="banner"><img height="100%" width="100%" src="img/baner2.jpg" > </div>
+	</div>	
+	<div class="menu" align="center">
+	<a href="index.html"> Home </a>|
+	 <a href="localizacao.html">Localização </a>| 
+	 <a href="peça_aqui.html">Peça aqui </a>|
+	 <a href="produtos.html"> Produtos </a></div>
+	<div class="corpo">
+	<font size="20">
+	<form>Faça aqui seu pedido<br></font>
+	Nome:<br> <input type="text" name="nome"><br>
+	Telefone:<br> <input type="text" name="telefone"maxlength="9"><br>
+	Endereço:<br> <input type="text" name="endereço"><br>
+	Cidade:<br> <input type="text" name="cidade"><br>
+	Estado:<br><select>
+		<option>--Selecione--</option>
+			<option>AC</option>
+			<option>AL</option>
+			<option>AP</option>
+			<option>AM</option>
+			<option>BA</option>
+			<option>CE</option>
+			<option>DF</option>
+			<option>ES</option>
+			<option>GO</option>
+			<option>MA</option>
+			<option>MT</option>
+			<option>MS</option>
+			<option>MG</option>
+			<option>PA</option>
+			<option>PR</option>
+			<option>PE</option>
+			<option>PI</option>
+			<option>RN</option>
+			<option>RS</option>
+			<option>RJ</option>
+			<option>RO</option>
+			<option>RR</option>
+			<option>SC</option>
+			<option>SP</option>
+			<option>SE</option>
+			<option>TO</option>
+			</select><br>
+			<input type="radio" name="promo1">Promoção 1- pizza média + 1 refri 500ml<br>
+	<input type="radio" name="promo2">Promoção 2- pizza grande + 1 refri 2l<br>
+	<input type="radio" name="promo3">Promoção 3- pizza gigante + 1 refri 2l<br>
+	<input type="radio" name="promo2">Promoção 4- 2 pizzas grande + 1 refri 2l<br>
+			Outros pedidos:<br><textarea cols="30" rows="5"></textarea><br>
+	<input type="submit" value="Send"><input type="reset" value="Clear">
+</form>
+	</div>
+	<div class="rodape">rodape</div>
+  </div>
+  </body>
+  
+</html>
